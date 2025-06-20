@@ -4,7 +4,7 @@ service:
   buildToolVersion: "MBTJ21N22"
   stages:
     Release:
-      cfCredentialsId: "btp-tech-00-cf"
+      cfCredentialsId: "xxx"
 stages:
   Build:
     mavenExecuteStaticCodeChecks: false

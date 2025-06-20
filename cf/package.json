@@ -36,7 +36,7 @@
   },
   "scripts": {
     "start": "cds-serve",
-    "build:cf": "rimraf @cds-models resources mta_archives gen && cds-ts build --production",
+    "build:cf": "npx rimraf @cds-models resources mta_archives gen && cds-ts build --production",
     "build:kyma": "cp -r kyma/ui-deployer gen && cp -r resources gen/ui-deployer",
     "cf:pack": "mbt build",
     "cf:deploy": "cf deploy ./mta_archives/btp-resource-consumption_2.1.0.mtar",
